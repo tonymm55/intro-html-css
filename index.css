@@ -7,7 +7,7 @@
 
 .parent {
   display: grid;
-  grid-template-columns: 0.1fr 1fr;
+  grid-template-columns: 0.3fr 1fr;
   grid-template-rows: 0.2fr 1fr 0.2fr;
   grid-column-gap: 2px;
   grid-row-gap: 2px;
@@ -40,7 +40,7 @@
 
 .image {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 
@@ -50,7 +50,7 @@ section {
 
 h1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  text-align: center;
+  text-align: left;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 5px;
@@ -60,7 +60,7 @@ h1 {
 }
 
 h2 {
-  text-align: center;
+  text-align: left;
 }
 
 a {
@@ -81,11 +81,11 @@ ul#navigation {
   padding: 10px;
 }
 
-div.ordered-list {
+/* div.ordered-list {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
-}
+} */
 
 ol.myOL {
   /* display: inline-block; */
@@ -95,4 +95,9 @@ ol.myOL {
 .div2 {
   background-color: #333232;
   max-width: 500px;
+  margin-right: 5px;
+}
+
+.div3 {
+  margin-left: 100px;
 }
