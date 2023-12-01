@@ -6,59 +6,76 @@
     <link rel="stylesheet" href="./index.css" />
     <title>Home Page</title>
   </head>
-  <body
-    <nav>
-      <ul id="navigation">
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./ferrari.html">Ferrari</a></li>
-        <li><a href="#">Porsche</a></li>
-        <li><a href="#">McLaren</a></li>
-      </ul>
-    </nav>
-    <header>
-      <h1>Supercars Home Page</h1>
-    </header>
-    <main>
-      <h1>Top Trumps (Supercars)</h1>
-      <p>This is a webpage of my dream cars.</p>
-      <section>
-        <h2>Fantasy Shopping List of Supercars</h2>
-        <ol>
-          <li>Porsche</li>
-          <li>Ferrari</li>
-          <li>McLaren</li>
-        </ol>
-        <!-- Write your comments here -->
-        <a href="./ferrari.html">
-          <img
-            className="images"
-            src="./car.jpeg"
-            alt="A photo of a Ferrari car"
-          />
-        </a>
+  <body>
+    <div class="parent">
+      <div class="div1">
+        <nav>
+          <ul id="navigation">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./ferrari.html">Ferrari</a></li>
+            <li><a href="#">Porsche</a></li>
+            <li><a href="#">McLaren</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="div2">
+        <!-- <img className="lambo" src="./lambo.jpeg" alt="lambo picture" /> -->
+      </div>
+      <div class="div3">
+        <header>
+          <h1>Supercars Home Page</h1>
+        </header>
+        <main>
+          <h1>Top Trumps (Supercars)</h1>
+          <p>This is a webpage of my dream cars.</p>
+          <section>
+            <h2>Fantasy Shopping List of Supercars</h2>
+            <div class="ordered-list">
+              <ol class="myOL">
+                <li>Porsche</li>
+                <li>Ferrari</li>
+                <li>McLaren</li>
+              </ol>
+            </div>
+            <!-- Write your comments here -->
+            <div class="image">
+              <img
+                id="images"
+                src="./car.jpeg"
+                alt="A photo of a Ferrari car"
+              />
+            </div>
+            <div>
+              <button>1</button>
+              <br />
+              <br />
+              <button>2</button>
+              <br />
+              <br />
+              <button>3</button>
+            </div>
+            <ul>
+              <li>918 Spyder</li>
+              <li>812 Superfast</li>
+              <li>McLaren GT</li>
+            </ul>
+          </section>
+        </main>
+      </div>
 
-        <div>
-          <button>1</button>
-          <br />
-          <br />
-          <button>2</button>
-          <br />
-          <br />
-          <button>3</button>
-        </div>
-        <ul>
-          <li>918 Spyder</li>
-          <li>812 Superfast</li>
-          <li>McLaren GT</li>
-        </ul>
-      </section>
-    </main>
-    <footer>
-      <p>Footer: This space is intentionally blank</p>
-      <a href="https://www.w3schools.com/" target="_blank"
-        >Blank Link, New Tab</a
-      >
-      <a href="https://www.bbc.com/" target="_self">Self Link, Same Tab</a>
-    </footer>
+      <div class="div4">
+        <footer>
+          <p>Footer: This space is intentionally blank</p>
+          <!-- Blank target creates a new tab/page for the destination page -->
+          <a href="https://www.mclaren.com/" target="_blank"
+            >McLaren(New Tab)</a
+          >
+          <!-- Self target uses same tab/page for the destination page -->
+          <a href="https://www.ferrari.com/" target="_self"
+            >Ferrari(Same Tab)</a
+          >
+        </footer>
+      </div>
+    </div>
   </body>
 </html>
