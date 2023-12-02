@@ -6,74 +6,76 @@
     <link rel="stylesheet" href="./index.css" />
     <title>Home Page</title>
   </head>
-  <body>
+  <body class="body-container">
     <div class="parent">
       <div class="div1">
         <nav>
-          <ul id="navigation">
+          <ul class="navigation">
             <li><a href="./index.html">Home</a></li>
-            <li><a href="./ferrari.html">Ferrari</a></li>
-            <li><a href="#">Porsche</a></li>
-            <li><a href="#">McLaren</a></li>
+            <li><a href="./ferrari.html">ProjectOne</a></li>
+            <li><a href="#">ProjectTwo</a></li>
+            <li><a href="#">ProjectThree</a></li>
           </ul>
         </nav>
       </div>
+
       <div class="div2">
-        <!-- <img className="lambo" src="./lambo.jpeg" alt="lambo picture" /> -->
+        <h4>Software Development Skills</h4>
+        <ul class="skills">
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>React</li>
+          <li>NodeJS</li>
+          <li>ExpressJS</li>
+          <li>SQL</li>
+          <li>Test Driven Development</li>
+          <li>Pair Programming</li>
+          <li>Git & Github</li>
+          <li>Agile Software Development</li>
+        </ul>
       </div>
+
       <div class="div3">
-        <header>
-          <h1>Supercars Home Page</h1>
+        <header class="header-container">
+          <h1>Anthony Moran</h1>
         </header>
+
         <main>
-          <h1>Top Trumps (Supercars)</h1>
-          <p>This is a webpage of my dream cars.</p>
-          <section>
-            <h2>Fantasy Shopping List of Supercars</h2>
-            <div class="ordered-list">
-              <ol class="myOL">
-                <li>Porsche</li>
-                <li>Ferrari</li>
-                <li>McLaren</li>
-              </ol>
-            </div>
-            <!-- Write your comments here -->
-            <div class="image">
-              <img
-                id="images"
-                src="./car.jpeg"
-                alt="A photo of a Ferrari car"
-              />
-            </div>
-            <div>
-              <button>1</button>
-              <br />
-              <br />
-              <button>2</button>
-              <br />
-              <br />
-              <button>3</button>
-            </div>
-            <ul>
-              <li>918 Spyder</li>
-              <li>812 Superfast</li>
-              <li>McLaren GT</li>
-            </ul>
-          </section>
+          <div class="image">
+            <img id="images" src="./car.jpeg" alt="A photo of a Ferrari car" />
+          </div>
+          <h1>Personal Portfolio</h1>
+          <p>This page was built in one afternoon, Northcoders Intro-Week</p>
+          <h2>Projects</h2>
+          <div class="ordered-list">
+            <ol class="myOL">
+              <li>Northcoders Final Project</li>
+              <li>Budget Tracker (MERN)</li>
+              <li>Tic-Tac-Toe (React, TypeScript)</li>
+            </ol>
+          </div>
+          <!-- Write your comments here -->
+
+          <div>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+          </div>
+          <ol class="myUL">
+            <li>918 Spyder</li>
+            <li>812 Superfast</li>
+            <li>McLaren GT</li>
+          </ol>
         </main>
       </div>
 
       <div class="div4">
-        <footer>
-          <p>Footer: This space is intentionally blank</p>
+        <footer class="footer">
+          <h3>Please Contact Me:</h3>
           <!-- Blank target creates a new tab/page for the destination page -->
-          <a href="https://www.mclaren.com/" target="_blank"
-            >McLaren(New Tab)</a
-          >
+          <a href="https://www.mclaren.com/" target="_blank">LinkedIn </a>
           <!-- Self target uses same tab/page for the destination page -->
-          <a href="https://www.ferrari.com/" target="_self"
-            >Ferrari(Same Tab)</a
-          >
+          <a href="https://www.ferrari.com/" target="_self">Email</a>
         </footer>
       </div>
     </div>
